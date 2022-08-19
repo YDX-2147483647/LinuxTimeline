@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Generate SVG",
+            "type": "shell",
+            "command": "gnuclad",
+            "args": [
+                "${file}",
+                "SVG",
+                "ldt.conf",
+            ],
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}

@@ -23,6 +23,18 @@ See [CONTRIBUTING](https://github.com/FabioLolix/LinuxTimeline/blob/master/CONTR
 If you want to build your own version, make sure you have gnuclad
 installed.
 
+> An alternative method to install gnuclad:
+>
+> First, download [Release 0.2.4.p1 · FabioLolix/gnuclad (github.com)](https://github.com/FabioLolix/gnuclad/releases/tag/0.2.4.p1).
+> 
+> ```shell
+> $ unzip gnuclad-0.2.4.p1.zip
+> gnuclad-0.2.4.p1 $ yum install gcc gcc-c++ automake # maybe redundant
+> gnuclad-0.2.4.p1 $ ./configure
+> gnuclad-0.2.4.p1 $ make
+> gnuclad-0.2.4.p1 $ sudo make install
+> ```
+
 To install gnuclad, you can download the source at https://launchpad.net/gnuclad
 
 For Arch users, use the AUR: https://aur.archlinux.org/packages/gnuclad/
@@ -79,3 +91,10 @@ https://www.debian.org/derivatives/
 https://wiki.archlinux.org/index.php/Arch-based_distributions
 
 https://fabiololix.gitlab.io/lists/RaspberryPi_OS/
+
+## Links
+
+- [File:Linux Distribution Timeline 21 10 2021.svg - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_Distribution_Timeline_21_10_2021.svg)
+- [FabioLolix/LinuxTimeline: Linux Distributions Timeline (github.com)](https://github.com/FabioLolix/LinuxTimeline)
+- [FabioLolix/gnuclad: bazaar to git conversion and import of Gnuclad. Gnuclad tries to help the environment by creating trees. It's primary use will be generating cladogram trees for the Linux and BSD distributions timeline projects (github.com)](https://github.com/FabioLolix/gnuclad)
+- [gnuclad 的安装使用 - SPARK forum-星火社区 (deepinos.org)](https://www.deepinos.org/d/216-gnuclad)

@@ -1,8 +1,6 @@
 /dist/*
 /dist*
-gldt.svg
+*.svg
 ldt.svg
-gldt.png
-ldt.png
-redhat.svg
+*.png
 .~lock.ldt.csv#

@@ -6,9 +6,9 @@
             "type": "shell",
             "command": "gnuclad",
             "args": [
-                "${file}",
+                "${fileBasenameNoExtension}.csv",
                 "SVG",
-                "ldt.conf",
+                "${fileBasenameNoExtension}.conf",
             ],
             "problemMatcher": [],
             "group": "build"
